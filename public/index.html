@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Tristian's Photography</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Header -->
-    <div class="container" id="header">
-        <h1>Welcome to my portfolio</h1>
-        <img src="./images/tristian-main-dp.jpg" alt="">
-        <p>My name is Tristian and I am an aspiring photographer.</p>
-        <a href="#about-me" class="button">Read More</a>
+    <!-- <div class="container" id="header">
+      <h1>Welcome to my portfolio</h1>
+      <img src="./images/tristian-main-dp.jpg" alt="" />
+      <p>My name is Tristian and I am an aspiring photographer.</p>
+      <a href="#about-me" class="button">Read More</a>
+    </div> -->
+
+    <div class="wrap">
+      <div class="showcase">
+        <div class="showcase-content">
+          <h1>Welcome to my portfolio</h1>
+          <p>My name is Tristian and I am an aspiring photographer.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="container" id="display">
-        <img src="./images/wedding-demo.jpg" alt="">
+    <div>
+      <img src="./images/tristian-main-dp.jpg" id="target-me" />
     </div>
 
     <!-- Navbar -->
     <div class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact-me">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
     </div>
 
     <div class="container" id="about-me">
-        <h1>A little bit about myself . . .</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ad ab quia, harum earum nemo facere! Magni, incidunt? Non adipisci nostrum at illo! Assumenda possimus reiciendis perferendis nisi, et consequatur vero amet in ducimus. Dolor sunt, asperiores necessitatibus, numquam illum explicabo tempore ut deleniti commodi dolorum eveniet officia. A, corrupti?</p>
+      <h1>A little bit about myself . . .</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ad
+        ab quia, harum earum nemo facere! Magni, incidunt? Non adipisci nostrum
+        at illo! Assumenda possimus reiciendis perferendis nisi, et consequatur
+        vero amet in ducimus. Dolor sunt, asperiores necessitatibus, numquam
+        illum explicabo tempore ut deleniti commodi dolorum eveniet officia. A,
+        corrupti?
+      </p>
     </div>
 
     <div class="container" id="projects">
+      <div>
+        <h1>My Current Projects</h1>
+      </div>
+
+      <div class="grid">
+        <div>
+          <img src="./images/project1.jpg" onclick="test();" alt="" />
+        </div>
 
         <div>
-            <h1>My Current Projects</h1>
+          <img src="./images/wedding-demo.jpg" alt="" />
         </div>
 
-        <div class="grid">
-
-            <div>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
+        <div>
+          <img src="./images/wedding-demo.jpg" alt="" />
         </div>
 
+        <div>
+          <img src="./images/wedding-demo.jpg" alt="" />
+        </div>
+      </div>
     </div>
 
     <div class="container" id="services">
+      <div>
+        <h1>Services I can provide for you</h1>
+      </div>
+
+      <div class="grid">
+        <div>
+          <h2>Service 1</h2>
+          <img src="./images/wedding-demo.jpg" alt="" />
+        </div>
 
         <div>
-            <h1>Services I can provide for you</h1>
+          <h2>Service 2</h2>
+          <img src="./images/wedding-demo.jpg" alt="" />
         </div>
 
-        <div class="grid">
-
-            <div>
-                <h2>Service 1</h2>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <h2>Service 2</h2>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <h2>Service 3</h2>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
-            <div>
-                <h2>Service 4</h2>
-                <img src="./images/wedding-demo.jpg" alt="">
-            </div>
-
+        <div>
+          <h2>Service 3</h2>
+          <img src="./images/wedding-demo.jpg" alt="" />
         </div>
 
+        <div>
+          <h2>Service 4</h2>
+          <img src="./images/wedding-demo.jpg" alt="" />
+        </div>
+      </div>
     </div>
 
     <div class="container" id="contact-me">
-        <h1>Contact Details</h1>
-        <p>Email: tristian@test.com</p>
-        <p>Instagram: tristiantest</p>
+      <h1>Contact Details</h1>
+      <p>Email: tristian@test.com</p>
+      <p>Instagram: tristiantest</p>
     </div>
-
 
     <div class="footer">
-        <p>Created by <a href="https://www.instagram.com/lattrellsapon/" target="_blank"><span>Lattrell Sapon</span></a></p>
+      <p>
+        Created by
+        <a href="https://www.instagram.com/lattrellsapon/" target="_blank"
+          ><span>Lattrell Sapon</span></a
+        >
+      </p>
     </div>
-    
-</body>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
