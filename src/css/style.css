@@ -135,6 +135,11 @@ span {
   color: #00b300;
 }
 
+.cursive{
+  font-family: URW Chancery L, cursive;
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 600px) {
   /* For Tablets */
   #header img {
