@@ -15,7 +15,6 @@ body {
 .container {
   width: 70%;
   margin: auto;
-  /* background: pink; */
   padding: 10px;
   overflow: hidden;
 }
@@ -140,6 +139,14 @@ span {
   margin-bottom: 5px;
 }
 
+#home-button{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 600px) {
   /* For Tablets */
   #header img {
@@ -160,6 +167,11 @@ span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+
+  .image-container{
+    width: 50%;
+    margin: auto;
   }
 }
 
